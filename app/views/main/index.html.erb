@@ -17,15 +17,18 @@
   <div class="container pt-9 pb-8">
     <div class="row">
       <div class="col-md-12 col-sm-12 text-center">
-        <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
-        <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %></p>
-        <%= link_to "https://youtu.be/Hso8yLzkqj8", target: "_blank" do %>
-          <h4><%= t("landing.video") %> <i class="far fa-play-circle ml-1"></i></h4>
-        <% end %>
+<img src="http://ccs2.ufpel.edu.br/wp/wp-content/uploads/2014/04/Marca-Colorida-UFPEL_10042014-337x150.png">
+<h1 id="main-text" class="display-4 mb-4">
+Bem-vindo ao serviço de webconferências UFPel
+</h1>
+<hr>
+<p class="lead offset-lg-2 col-lg-8 col-sm-12 ">
+A plataforma pode ser utilizada para atividades como aulas, reuniões, monitorias, treinamentos, apresentações de trabalhos e bancas.
+Ágil, interativo, fácil de usar e disponível em português, o serviço institucional possui funcionalidades variadas, como recursos de áudio, vídeo, bate-papo, webcam, envio de arquivos e compartilhamento de tela. O layout pode ser otimizado conforme a situação para a qual a sala vai ser utilizada. Além disso, não há limite de participantes e o acesso pode ser feito inclusive por smartphone.
+Para facilitar o compartilhamento das salas disponibilizamos também link curto e conveniente automaticamente.
+</p>
+<hr>
       </div>
-
     </div>
   </div>
 </div>
-
-<%= render "main/components/features" %>

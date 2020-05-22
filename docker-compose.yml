@@ -1,9 +1,9 @@
-version: '3'
+version: '2'
 
 services:
   app:
     entrypoint: [bin/start]
-    image: bigbluebutton/greenlight:v2
+    image: bigbluebutton/greenlight:release-v2
     container_name: greenlight-v2
     env_file: .env
     restart: unless-stopped
@@ -28,8 +28,12 @@ services:
     ports:
       - 127.0.0.1:5432:5432
     volumes:
-      - ./db/production:/var/lib/postgresql/data
+      - ./db/production-postgres:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_PASSWORD=f70f300f4d31366e
+networks:
+  default:
+    external:
+      name: greenlight_default

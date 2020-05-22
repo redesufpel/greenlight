@@ -200,7 +200,7 @@ pt_BR:
     designs: Designs personalizados
     authentication: Autenticação de usuário
   footer:
-    powered_by: "Powered by %{href}."
+    powered_by: desenvolvido por PROGIC / UFPel.
   forgot_password:
     subtitle: Esqueci a senha
     email: Email
@@ -229,14 +229,14 @@ pt_BR:
         footer: 'BigBlueButton é um sistema de conferência web de código aberto. Para mais informações sobre o BigBlueButton, acesse https://bigbluebutton.org/.'
   landing:
     about: "%{href} é um front-end para seu servidor BigBlueButton. Você pode criar suas salas para realizar sessões, ou entrar em salas de outras pessoas utilizando um link curto."
-    welcome: Bem-vindo ao BigBlueButton.
+    welcome: Bem-vindo a WEBConf UFPel.
     video: Assista ao nosso tutorial sobre como utilizar o Greenlight
     upgrade: Mostre-me como atualizar para o 2.0!
     version: "Lançamos uma nova versão do Greenlight, entretanto sua base de dados é incompatível."
   language_default: Padrão (idioma do navegador)
   ldap_error: Não é possível conectar ao servidor LDAP. Verifique sua configuração LDAP e certifique-se de que seu servidor está funcionando.
   login: Entrar
-  login_title: Entre em sua conta.
+  login_title: Acessar com CPF e senha do Cobalto.
   mailer:
     user:
       approve:
